@@ -46,7 +46,7 @@ class Door:
         """Gibt alle Attribute der Tür aus."""
         print(f'Türfarbe: {self.color}\n'
               f'Türe offen: {self._door_is_open}\n'
-              f'Türe verriegelt: {self._door_is_locked}')
+              f'Türe verrriegelt: {self._door_is_locked}')
 
     @property
     def door_is_open(self):
